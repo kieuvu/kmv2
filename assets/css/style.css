@@ -65,7 +65,7 @@ body {
 
 #main__centerContent-button--no{
     background-color: red;
-    position: absolute;
+    position: relative;
     transition: 0.1s linear;
     width: 200px;
     height: 100px;
