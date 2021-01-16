@@ -1,0 +1,115 @@
+header {
+    height: 5rem;
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+body {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    user-select: none;
+}
+.header__logo-img img {
+    height: 50px;
+    width: 50px;
+}
+
+.header__logo {
+    display: flex;
+}
+
+.header__menu-text p {
+    display: inline;
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 50px;
+    margin-left: 5px;
+    color: black;
+}
+
+.header__menu-text p:last-child {
+    color: gray;
+    position: relative;
+    left: -14px;
+}
+
+.main__centerContent-button {
+    text-align: center;
+    margin-top: 23%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.main__centerContent-button input {
+    outline: none;
+    font-size: 3rem;
+    font-weight: bold;
+    color: white;
+}
+
+#main__centerContent-button--yes {
+    background-color: blue;
+    cursor: pointer;
+    width: 200px;
+    height: 100px;
+    border-radius: 50px 0 50px 0;
+    border: none;
+}
+
+.main__centerContent-button input:nth-child(2):hover{
+    color: orange;
+}
+
+.main__centerContent-button input:nth-child(3):hover{
+    color: orange;
+}
+
+#main__centerContent-button--no{
+    background-color: red;
+    position: absolute;
+    transition: 0.2s linear;
+    width: 200px;
+    height: 100px;
+    border-radius: 50px 0 50px 0;
+    border: none;
+    cursor: pointer;
+}
+#main__centerContentButtonNo2 {
+    background-color: green;
+    cursor: pointer;
+    width: 200px;
+    height: 100px;
+    border-radius: 50px 0 50px 0;
+    border: none;
+}
+
+.main__centerContent-text {
+    font-size: 90px;
+    text-align: center;
+    font-weight: bold;
+    color:black;
+    position: relative;
+    top: 100px;
+    border: none;
+}
+
+.main__centerContent-text h1 {
+    text-shadow: 5px 5px rgba(255, 0, 0, 0.808);
+}
+
+
+
+
+
+
+
+/* heart animation */
+
+
+canvas {
+  border: 1px soild black;
+  position: absolute;
+  z-index: -10;
+  width: 100%;
+  height: 100%;
+}

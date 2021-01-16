@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/fonts/fontawesome/css/all.min.css">
+</head>
+
+<body>
+    <canvas id="canvas"></canvas>
+    <h1></h1>
+    <header>
+        <div class="grid">
+            <section class="header">
+                <div class="header__logo">
+                    <div class="header__logo-img">
+                        <img src="/home/vulinux/Documents/soft/avatar.png" alt="">
+                    </div>
+                    <div class="header__menu-text">
+                        <p>KIEU</p>
+                        <p>VU</p>
+                    </div>
+                </div>
+                <div class="header__menu"></div>
+            </section>
+        </div>
+    </header>
+    <main>
+
+        <section class="main">
+            <div class="grid">
+                <div class="main__centerContent">
+                    <div class="main__centerContent-text">
+                        <h1>Phương! Do you love me ?</h1>
+                    </div>
+                    <div class="main__centerContent-button">
+                        <input type="button" value="No" id="main__centerContent-button--no" onmouseover="noClick()">
+                        <input type="button" value="Yes" id="main__centerContent-button--yes" onclick="yesClick()">
+                        <input type="button" value="Hmm!" id="main__centerContentButtonNo2" onclick="yesClick()"
+                        onmouseover="changeText()" onmouseout="defaultText()">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer></footer>
+
+
+    <script src="./assets/js/main.js"></script>
+
+
+</body>
+
+</html>
