@@ -155,7 +155,7 @@ function yesClick() {
 }
 
 function changeText() {
-    document.getElementById("main__centerContentButtonNo2").value = "";
+    document.getElementById("main__centerContentButtonNo2").value = "Có";
 }
 
 function defaultText() {
