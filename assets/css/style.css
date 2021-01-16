@@ -36,7 +36,7 @@ body {
 .main__centerContent-button {
     text-align: center;
     margin-top: 23%;
-    display :;
+    display :block;
 }
 
 .main__centerContent-button input {
