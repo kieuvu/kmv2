@@ -162,6 +162,10 @@ function changeText() {
 function noClick() {
     var x = Math.floor(Math.random() * window.innerWidth);
     var y = Math.floor(Math.random() * window.innerHeight);
-    document.getElementById("main__centerContent-button--no").style.left = x + "px";
-    document.getElementById("main__centerContent-button--no").style.top = y + "px";
+//     document.getElementById("main__centerContent-button--no").style.left = x + "px";
+//     document.getElementById("main__centerContent-button--no").style.top = y + "px";
+    if (x < window.innerWidth && y < window.innerHeight){
+        document.getElementById("main__centerContent-button--no").style.left = x + "px";
+        document.getElementById("main__centerContent-button--no").style.top = y + "px";
+    };
 }
