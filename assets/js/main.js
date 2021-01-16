@@ -158,9 +158,6 @@ function changeText() {
     document.getElementById("main__centerContentButtonNo2").value = "Có";
 }
 
-function defaultText() {
-    document.getElementById("main__centerContentButtonNo2").value ="Không"
-}
 
 function noClick() {
     var x = Math.floor(Math.random() * window.innerWidth);
