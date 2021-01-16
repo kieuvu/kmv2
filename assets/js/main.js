@@ -155,11 +155,11 @@ function yesClick() {
 }
 
 function changeText() {
-    document.getElementById("main__centerContentButtonNo2").value = "Yes";
+    document.getElementById("main__centerContentButtonNo2").value = "";
 }
 
 function defaultText() {
-    document.getElementById("main__centerContentButtonNo2").value ="Hmm"
+    document.getElementById("main__centerContentButtonNo2").value ="Không"
 }
 
 function noClick() {
